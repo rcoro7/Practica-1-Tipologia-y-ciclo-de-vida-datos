@@ -16,7 +16,7 @@ Realización de la Práctica 1 de la asignatura **Tipología y Ciclo de Vida de 
 | Archivo | Descripción |
 |----------|-------------|
 | `source/main_scraper.py` | Script principal de scraping. Recolecta ofertas de empleo desde *Tecnoempleo.com* en varias categorías tecnológicas, extrayendo datos clave como título, empresa, ubicación, contrato, experiencia, habilidades y fecha de publicación. |
-| `dataset/tecnoempleo_ofertas_nov.csv` | Dataset final generado con los resultados del scraping. Contiene las ofertas estructuradas y listas para análisis posteriores (Práctica 2). |
+| `dataset/tecnoempleo_ofertas_nov.csv` | Dataset final generado con los resultados del scraping. Contiene las ofertas estructuradas y listas para análisis posteriores. |
 | `requirements.txt` | Lista de dependencias necesarias para ejecutar correctamente el script. |
 | `README.md` | Documento informativo del proyecto, con instrucciones de uso y referencias. |
 
@@ -27,7 +27,6 @@ Realización de la Práctica 1 de la asignatura **Tipología y Ciclo de Vida de 
 ### Requisitos previos
 Asegúrate de tener instalado **Python 3.9 o superior**.
 
----
 
 ### Instalación de dependencias
 
@@ -35,6 +34,9 @@ Instala las librerías necesarias ejecutando:
 
 ```bash
 pip install -r requirements.txt
+````
+
+---
 
 ### Ejecución del script
 
@@ -42,6 +44,8 @@ Ejecuta el script principal desde la carpeta raíz del proyecto:
 
 ```bash
 python source/main_scraper.py
+````
+---
 
 Esto descargará los datos de ofertas de empleo del portal Tecnoempleo.com, recorriendo categorías como Big Data, Data Science, Inteligencia Artificial o Machine Learning, y generará el archivo CSV final dentro de la carpeta dataset/.
 
