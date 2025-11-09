@@ -6,7 +6,7 @@ Realización de la Práctica 1 de la asignatura **Tipología y Ciclo de Vida de 
 ---
 
 ## Integrantes del grupo
-- **Rocío Argüelles Coro**  
+- **Rocío Coro Argüelles**  
 - **Javier Maciá Davó**
 
 ---
